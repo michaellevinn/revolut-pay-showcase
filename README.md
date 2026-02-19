@@ -9,6 +9,9 @@ This is a simple application to showcase Revolut Pay integrations. It simulates 
 -   **Backend**: A Node.js server that talks to the Revolut API securely.
     - `server/routes/payment.js`. This creates the payment order with Revolut.
 
+
+![alt text](img/revolut-pay-showcase-app.png "Revolut App Showcase App")
+
 ## Getting Started
 
 ### 1. Installation
