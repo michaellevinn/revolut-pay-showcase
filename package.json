@@ -1,0 +1,18 @@
+{
+  "name": "payment-test-root",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.2.0"
+  },
+  "dependencies": {
+    "@revolut/checkout": "^1.1.24"
+  }
+}
