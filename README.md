@@ -31,7 +31,7 @@ The server needs your Revolut API keys to work.
 
 ```env
 MERCHANT_API_SECRET_KEY=sk_sandbox_your_secret_key_here
-MERCHANT_API_PUBLIC_KEY=sk_sandbox_your_secret_key_here
+MERCHANT_API_PUBLIC_KEY=pk_sandbox_your_public_key_here
 MERCHANT_API_URL=https://sandbox-merchant.revolut.com/api/orders
 ```
 
